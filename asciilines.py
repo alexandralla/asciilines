@@ -40,12 +40,12 @@ def buildCanvas(width, height):
     
     canvas = [[0 for x in range(height)] for y in range(width)] 
 
-    print('\nOriginal canvas:')
+#    print('\nOriginal canvas:')
     for i in range(width):
         for j in range(height):
             canvas[i][j] = '.'
-            print(canvas[i][j], end=' ')
-        print()
+#            print(canvas[i][j], end=' ')
+#        print()
 
 
     return canvas
